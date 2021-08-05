@@ -9,7 +9,7 @@ public class FizzBuzzTest {
     void should_return_order_number_when_count_off_given_normal_case_order_number(){
         //given
         int orderNumber = 1;
-        FizzBuzz fizzbuzz = new FizzBuzz();
+        FizzBuzzWhizz fizzbuzz = new FizzBuzzWhizz();
 
         //when
         String result = fizzbuzz.countoff(orderNumber);
