@@ -2,6 +2,9 @@ package tdd.fizzbuzz;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
+import java.util.List;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class FizzBuzzTest {
@@ -55,7 +58,6 @@ public class FizzBuzzTest {
 
         //then
         assertThat(result).isEqualTo("Whizz");
-
     }
 
 }
