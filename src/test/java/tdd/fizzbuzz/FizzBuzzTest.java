@@ -44,5 +44,18 @@ public class FizzBuzzTest {
         assertThat(result).isEqualTo("Buzz");
 
     }
+    @Test
+    void should_return_whizz_when_count_off_given_order_number_multiple_of_7(){
+        //given
+        int orderNumber = 7;
+        FizzBuzzWhizz fizzbuzz = new FizzBuzzWhizz();
+
+        //when
+        String result = fizzbuzz.countoff(orderNumber);
+
+        //then
+        assertThat(result).isEqualTo("Whizz");
+
+    }
 
 }
